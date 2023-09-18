@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>나의 소개</title>
+<style>
+	body { background-color : rgb(157, 119, 254); color : rgb(0, 97, 0);
+				margin-left : 40px; margin-right : 40px;}
+	h3 { text-align : center; color : rgb(51, 40, 211);}
+	hr { height : 5px; border : solid grey;
+				background-color : grey }
+	span { color: rgb(129, 20, 20); font-size: 20px; }
+</style>
+<script>
+	function show() { // <img>에 이미지 달기
+		document.getElementById("fig").src = "증명사진.JPG";
+	}
+	function hide() { // <img>에 이미지 제거
+		document.getElementById("fig").src= " ";
+	}
+</script>
+</head>
+<body>
+<h3 onmouseover="show()" onmouseout="hide()">김민재</h3>
+<hr>
+<div><img id="fig" src=""></div>
+안녕하세요 저는 부산에 살고있는 2001년생인 김민재라고 합니다.
+<span>저는 정보보안 분야에 관심이 있으며</span> 그와 관련된 개인 학습을 하고있습니다.
+비록 전과를 하여 사전 지식이 많이 부족하지만 <span>최선을 다해 따라가겠습니다.</span>
+</body>
+</html>
