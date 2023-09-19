@@ -1,0 +1,7 @@
+h1{text-align : center; color : brown;}
+body{background-color : aliceblue;}
+p{font-family : "휴먼편지체", serif; font-size : 1em; text-indent : 1em}
+hr{border-width : 1px}
+ul{border-width : 1px; border-style : dotted;}
+h2{color : blue; text-shadow : 3px 3px 3px rgb(116, 183, 193)}
+footer{font-family : "휴먼편지체", serif; font-size : 1em; text-indent : 1em; border-radius : 20px 20px 20px 20px; background-color : orange;}
