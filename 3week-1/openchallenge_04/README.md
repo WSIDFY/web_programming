@@ -6,19 +6,19 @@
 
 >    1. brown 글자색, 텍스트 정렬 center
 >    >
->    2. <body> 배경색 aliceblue로 변경
+>    2. body 배경색 aliceblue로 변경
 >    >
->    3. <header>의 아래쪽만 1픽셀의 직선 테두리로 변경
+>    3. header의 아래쪽만 1픽셀의 직선 테두리로 변경
 >    >
->    4. <ul>은 1픽셀의 점선 테두리로 둘러싸기
+>    4. ul은 1픽셀의 점선 테두리로 둘러싸기
 >    >
->    5. <a>의 링크장식 text-decoration을 none으로 하여 밑줄 없애기
+>    5. a의 링크장식 text-decoration을 none으로 하여 밑줄 없애기
 >
->    6. <p>의 텍스트 : 휴먼 편지체, 글자크기 1em, 들여쓰기 1em으로 변경
+>    6. p의 텍스트 : 휴먼 편지체, 글자크기 1em, 들여쓰기 1em으로 변경
 >    
->    7. <h2>에는 blue글자색, text-shadow추가
+>    7. h2에는 blue글자색, text-shadow추가
 >
->    8. <footer>에는 orange배경색, 둥근 모서리 테두리 씌우기
+>    8. footer에는 orange배경색, 둥근 모서리 테두리 씌우기
 
 <br><img src="1.png" width="1000" height="850" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="2.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
