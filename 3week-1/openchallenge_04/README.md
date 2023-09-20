@@ -19,6 +19,13 @@
 >    7. h2에는 blue글자색, text-shadow추가
 >
 >    8. footer에는 orange배경색, 둥근 모서리 테두리 씌우기
+>
+>    9. 설문조사에 survey하이퍼 링크달고 설문지 페이지 띄우기
 
 <br><img src="1.png" width="1000" height="850" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="2.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="3.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="4.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="5.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="6.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="7.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
