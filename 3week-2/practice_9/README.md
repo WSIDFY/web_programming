@@ -10,8 +10,7 @@
 >    >
 >    3. ol구간 설정(list-style-type: none)
 >    >
->    4. span구간 설정(컬러색 지정-yellowgreen, font-size: 2em, font-weight: bold, 글꼴-italic, margin-bottom: 6px
->    >               position: absolute, margin-left: -6px, margin-right: -10px)
+>    4. span구간 설정(컬러색 지정-yellowgreen, font-size: 2em, font-weight: bold, 글꼴-italic, margin-bottom: 6px, position: absolute, margin-left: -6px, margin-right: -10px)
 >    >
 >    5. div구간 설정(width: 320px, border:2px solid orange)
 >
