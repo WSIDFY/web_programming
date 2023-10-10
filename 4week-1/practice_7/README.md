@@ -11,9 +11,9 @@
 >    4. if문 사용(조건에 따른 성공, 다름 출력)
 
 
-<br><img src="1.png" width="1000" height="1000" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="2.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="3.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="800" height="1000" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="2.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="3.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 
 
 
