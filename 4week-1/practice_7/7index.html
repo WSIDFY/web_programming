@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>큰 자리수와 낮은자리수 같은지 비교</title>
+</head>
+
+<body>
+<h3>큰 자리수와 낮은자리수 같은지 비교</h3>
+<hr>
+
+<script>
+var str = prompt("숫자 입력");  // 사용자로부터 값을 입력받는 입력창 생성
+
+if(isFinite(str))
+{
+    var n = parseInt(str);
+
+    if(n > 0) // 양수인 경우에만
+    {
+        var least = n%10; // 1의 자리수
+        var most = 0;
+
+        while(n != 0)   // n이 0이 아닐 때까지
+        {
+             most = n % 10;
+             n = Math.floor(n/10); //  소수점 이하 버리기
+        }
+
+        if(most == least)   // 제일 큰 자리수와 제일 작은 자리수가 같다면 성공 출력
+            document.write(str + ": 성공");
+        else
+            document.write(str + ": 다름"); // 같지 않다면 다름 출력
+    }
+}
+
+</script>
+
+</body>
+</html>

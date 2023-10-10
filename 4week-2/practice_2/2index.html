@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>정수 5개 입력받아 역순으로 출력</title>
+</head>
+
+<body>
+
+<script>
+document.write("<h3>정수 5개 입력받아 역순으로 출력</h3>");
+document.write("<hr>");
+ 
+var n=[];       // 배열 n생성
+for(var i=0; i<5; i++)      //i가 0부터 4까지 1씩 증가하며 반복
+{
+    n[i]=prompt("정수 입력");   //정수 입력창 생성
+}
+
+document.write("입력된 수의 배열<br>");
+ 
+for(var i=0; i<5; i++)      //i가 0부터 4까지 1씩 증가하며 반복
+{
+    document.write(n[i]+" ");  //공백 생성
+}
+
+document.write("<hr>");
+document.write("역순으로 재정렬된 배열<br>");
+ 
+for(var i=4; i>=0; i--)     //i가 4부터 0까지 1씩 감소하며 반복
+{
+    document.write(n[i]+" ");
+}
+
+</script>
+
+</body>
+</html>

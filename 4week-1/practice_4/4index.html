@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>월화수목금토일</title>
+</head>
+
+<body>
+<h3>월화수목금토일</h3>
+<hr>
+
+<script>
+var n = prompt("월화수목금토일 중에서 입력하세요"); // 사용자로부터 요일을 입력받기 위해 칸 생성
+
+switch(n)       // switch로 출근과 휴일의 경우를 분할
+{
+ case "월":
+ case "화":
+ case "수":
+ case "목":
+ document.write(n+"는(은) 출근");   // 출근 출력
+ break;
+
+ case "금":
+ case "토":
+ case "일":
+ document.write(n+"는(은) 휴일");   // 휴일 출력
+ break;
+}
+</script>
+
+</body>
+</html>

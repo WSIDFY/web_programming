@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>17개의 CSS2 색이름과 색</title>
+
+<style>
+div 
+{
+    display: inline-block;
+    width: 60px;        /*가로길이 및 여백 설정*/
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+<script>
+document.write("<h3>17개의 CSS2 색이름과 색</h3><hr>");
+ 
+var colorNames =        // 색상 지정
+["maroon", "red", "orange", "yellow", "olive", "purple", "fuchsia", "white", "lime", 
+"green", "navy", "blue", "aqua", "teal", "black", "silver", "gray"];
+
+ // i가 0부터 colorNames.length미만까지, 1씩 증가하며 반복
+for(var i=0 ; i<colorNames.length ; i++) 
+{
+    document.write("<div style='background-color:"+colorNames[i]+"'>"
+    +colorNames[i]+"</div>");
+}
+</script>
+</body>
+</html>

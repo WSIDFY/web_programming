@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>document.write()</title>
+</head>
+<body>
+    <script>
+        document.write("<h3>document.write()로 표만들기</h3>");
+        document.write("<hr>");
+
+        document.write("<table border='1'>");   // 표 테두리는 1로 설정
+        document.write("<tbody>");
+        document.write("<tr>");
+        document.write("<th>");
+        document.write("n");    // n 출력
+
+        for (var i=0; i<=9; i++)    // i가 0부터 9이하까지 1씩 증가하며 연산 수행
+        {
+            document.write("<td>");
+            document.write(i);      // 0에서 9까지 순차적 출력
+            document.write("</td>");
+        }
+
+        document.write("</th>");
+        document.write("</tr>");
+        document.write("<tr>");
+        document.write("<th>");
+        document.write("n<sup>2</sup>");    // n^2 출력
+
+        for (var i=0; i<=9; i++)    // i가 0부터 9이하까지 1씩 증가하며 연산 수행
+        {
+            document.write("<td>");
+            document.write(i*i);    // 제곱이기 때문에 동일한 값을 한번 더 곱하여 출력
+            document.write("</td>");
+        }
+
+        document.write("</th>");
+        document.write("</tr>");
+        document.write("<tbody>");
+        document.write("</table>");
+    </script>
+</body>
+</html>

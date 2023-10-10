@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>암호를 입력하라!</title>
+</head>
+<body>
+<h3>암호를 입력하라!</h3>
+<hr>
+<script>
+
+var notyou = false;
+
+while (!notyou)     // notyou가 true일 때 까지
+{
+    var n = prompt("암호를 대라");  // (notyou가 true일 때 까지)암호를 대라! 입력창 출력
+
+    if (n === "you")    
+    {
+        document.write("통과!");    //입력을 받은 값이 you일때 통과 출력
+        notyou = true;              // notyou는 true로 설정
+    }
+}
+
+</script>
+</body>
+</html

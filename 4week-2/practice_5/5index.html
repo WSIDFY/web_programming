@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>문자열 배열 다루기</title>
+</head>
+
+<body>
+<h3>문자열 배열 다루기</h3>
+<hr>
+
+<script>
+function printArray(array) 
+{
+    for(i=0; i<array.length; i++)
+    {
+        document.write(array[i]+" ");
+    }
+    document.write("<br>");    
+}
+var names = new Array("wonsun", "jaemoonlee", "kitae", "gracehwang");
+
+document.write("이름 : ");  // 배열의 각 이름 출력
+
+printArray(names);
+
+var longest=names[0];// 가장 긴 이름 출력
+
+for(i=0; i<names.length; i++) 
+{
+    if(names[i].length > longest.length)
+        longest = names[i];
+}
+document.write("가장 긴 이름 : " + longest + "<br>");
+ 
+var pre=names[0];   // 가장 먼저 나오는 이름 출력
+
+for(i=0; i<names.length; i++) 
+{
+    if(names[i] < pre)
+        pre = names[i];
+}
+
+document.write("가장 먼저 나오는 이름 : " + pre + "<br>");
+
+names.sort(); // 배열 정렬
+document.write("증가순 이름 : ");
+
+printArray(names);
+ 
+</script>
+</body>
+</html>

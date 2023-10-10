@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>난수</title>
+</head>
+<body>
+<h3>난수 10개 생성</h3>
+<hr>
+<script>
+var n=[];       // 배열 n 생성
+var temp=0;
+for(var i=0; i<10; i++)      // 난수 10개 배열에 저장
+{
+    var m = Math.random()*100+1;
+    n[i] = Math.floor(m);
+}
+for(var i=0; i<10; i++)     // 배열 출력
+{
+    document.write(n[i]+" ");
+}
+document.write("<hr>");
+var big = n[0];         // big에 최대값 저장
+
+for(var i=0; i<10; i++)     // 큰 수를 찾는 반복문
+{
+    if(big<=n[i])
+    {
+        big = n[i];
+    }
+}
+document.write("제일 큰 수는 " + big);
+document.write("<hr>");
+ 
+for(var i=0; i<10; i++) // 배열 정렬
+{
+    for(var j=0; j<10; j++)
+    {
+        if(n[i]<n[j])
+        {
+            temp = n[j];
+            n[j] = n[i];
+            n[i] = temp;
+        }
+    }    
+}
+for(var i=0; i<10; i++) // 배열 출력
+{
+    document.write(n[i]+" ");
+}
+</script>
+</body>
+</html>
