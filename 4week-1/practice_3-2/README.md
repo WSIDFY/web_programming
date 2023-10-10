@@ -9,5 +9,5 @@
 >    3. 1번 for문 - 순차적 출력 / 2번 for문 - 값에 동일한 값을 곱하여 출력(제곱)
 
 
-<br><img src="1.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="1000" height="1000" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="2.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
