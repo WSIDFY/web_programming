@@ -7,8 +7,8 @@
 >    2. 수식의 값이 res1으로 들어감
 
 
-<br><img src="1.png" width="700" height="1000" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="2.png" width="700" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="700" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="2.png" width="700" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="3.png" width="700" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 
 
