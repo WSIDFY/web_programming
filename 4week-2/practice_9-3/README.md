@@ -10,7 +10,7 @@
 >    >
 >    2. book 객체 작성
 >    >
->    3. book 객체 출
+>    3. book 객체 출력
 
 
 <br><img src="1.png" width="1000" height="1000" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
