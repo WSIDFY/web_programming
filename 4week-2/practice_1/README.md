@@ -15,5 +15,5 @@
 >    6. for문 사용(배열을 순차적으로 출력하는 반복문)
 
 
-<br><img src="1.png" width="1000" height="1000" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="1000" height="1400" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="2.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
