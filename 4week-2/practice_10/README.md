@@ -6,7 +6,7 @@
 >
 >    2. for문 생성(bookArray 객체 출력)
 >
->    3. for문 생성(i가 0부터 bookArray.length미만까지 1씩 증가하며 반복하여 가장 비싼 가격의 책을 식별하는 반복)
+>    3. for문 생성(i가 0부터 bookArray.length미만까지 1씩 증가하며 반복하여 가장 비싼 가격의 책을 식별하는 작업 반복)
 
 
 <br><img src="1.png" width="1000" height="1000" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
