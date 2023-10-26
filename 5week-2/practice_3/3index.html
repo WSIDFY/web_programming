@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>onkeydown</title>
+        <meta charset="utf-8">
+    </head>
+
+    <script>    // 연산 수행문 생성
+        function procKey(ev)
+        {
+            if(ev.keyCode == 13) 
+            {
+                let exp=eval(document.querySelector("#exp").value)
+                document.querySelector("#val").value = exp
+            }
+        }
+    </script>
+
+    <body>
+        <h3>계산기 만들기</h3>
+        <hr>
+        <p>
+            수식을 입력하고 &lt;Enter&gt;을 입력하세요
+        </p>
+        <form><!--문자를 입력박도 해당 id 문장에서 작업 수행 및 엔터시 이벤트 발생 -->
+            식 <input type="text" id="exp" onkeypress="procKey(event)"> <br>
+            값 <input type="text" id="val">
+        </form>
+    </body>
+    
+</html>

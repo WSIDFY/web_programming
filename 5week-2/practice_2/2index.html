@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>라디오 버튼과 이미지 출력</title>
+
+        <script>
+        function change()
+        {
+            let found = null;
+            let newForm = document.getElementsByName("fruit")
+            let img = document.getElementById("fruitimage")
+
+            for(let i = 0; i<newForm.length;i++)
+            {
+                if(newForm[i].checked == true)  // 체크가 되었을 때 작업 수행
+                {
+                    found = newForm[i];
+                    break;
+                }
+            }
+            img.src = found.value;
+        }
+        </script>
+
+    </head>
+    <body onload="change()">
+        <h3>라디오 버튼을 클릭하면 이미지를 출력합니다.</h3>
+        <hr>
+        <form>  <!--체크박스 생성 및 체크시 해당 이미지 출력-->
+            <input type="radio" name="fruit" value="바나나.png" checked onchange="change()" > 바나나
+            <input type="radio" name="fruit" value="망고.png" onchange="change()" > 망고
+            <input type="radio" name="fruit" value="사과.png" onchange="change()" > 사과
+        </form>
+        <img id="fruitimage" src="사과.png">
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>자바스크립트 코드</title>
+        <meta charset="utf-8">
+    </head>
+    <script>
+        window.ondblclick = function ()     // 브라우저를 클릭했을 때 작업 수행
+        {//r, g, b 의 자리에 각각 랜덤의 수 입력
+            let r=Math.floor(Math.random()*256)
+            let g=Math.floor(Math.random()*256)
+            let b=Math.floor(Math.random()*256)
+            document.body.style.backgroundColor
+            = `rgb(${r}, ${g}, ${b})`   //rgb형식
+        }
+    </script>
+    <body>
+        <h3>바탕 아무 곳이나 더블 클릭</h3>
+        <hr>
+        <p>
+            바탕 아무 곳이나 <strong>더블 클릭</strong>하면
+            바탕색이 랜덤하게 변합니다.
+        </p>
+    </body>
+</html>

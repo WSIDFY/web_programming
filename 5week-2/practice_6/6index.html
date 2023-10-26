@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>onwheel</title>
+
+    <script>
+    function wheel(e, img)
+    {                           //휠이 돌아가는 방향에 따라 사진의 크기를 조정
+        if(e.wheelDelta < 0)    // 휠을 아래로 돌렸을 때
+        {
+           img.width -= img.width*0.05
+           img.height -= img.height*0.05
+        }
+        else                    //휠을 위로 돌렸을 때
+        {
+            img.width += img.width*0.05
+            img.height += img.height*0.05
+        }
+    }
+    </script>
+</head>
+
+<body>
+        <h3>마우스 휠을 이용한 이미지 확대/축소</h3>
+        <hr>
+        이미지 위에 휠을 위로 굴리면 이미지가 축소되고 아래로 굴리면 이미지가 확대됩니다.<br>
+        <img src="벚꽃.png" onwheel="wheel(event,this)" width="280" height="210" alt="img">
+</body>
+</html>

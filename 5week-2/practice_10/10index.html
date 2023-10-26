@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>계산기 만들기</title>
+
+        <style> /*계산기의 전체적인 형식 지정*/
+        button{width: 80px;}
+        td{width: 100px;}
+        input{width: 400px;}
+        </style>
+
+        <script>    // 버튼별 각각의 기능 설정
+            function add(char)  // 더하기
+            {
+            let display = document.getElementById("display")
+            display.value = display.value + char
+            }
+            function result()   // 결과 출력
+            {
+                let display = document.getElementById("display")
+                let a = eval(display.value)
+                document.getElementById("display").value = a
+            }
+            function CE()   // 초기화
+            {
+                let display = document.getElementById("display")
+                document.getElementById("display").value = ""
+            }
+            function BACk()     // 입력값 하나 지우기
+            {
+                let display = document.getElementById("display")
+                display.value = display.value.substring(0, display.value.length-1);
+            }
+        </script>
+    </head>
+
+    <body>
+        <h3>계산기 만들기</h3>  <!--계산기에 필요한 보튼 설정 및 버튼의 각 기능 설정-->
+        <hr>
+        <input type="text" placeholder="0" id="display">
+        <table>
+            <tr>
+                <td><button type="button" onclick="BACk()">BACK</button></td>
+                <td><button type="button" onclick="CE()">CE</button></td>
+                <td><button type="button" onclick="CE()">C</button></td>
+                <td><button type="button" onclick="result()">=</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="add(7)">7</button></td>
+                <td><button type="button" onclick="add(8)">8</button></td>
+                <td><button type="button" onclick="add(9)">9</button></td>
+                <td><button type="button" onclick="add('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="add(4)">4</button></td>
+                <td><button type="button" onclick="add(5)">5</button></td>
+                <td><button type="button" onclick="add(6)">6</button></td>
+                <td><button type="button" onclick="add('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="add(1)">1</button></td>
+                <td><button type="button" onclick="add(2)">2</button></td>
+                <td><button type="button" onclick="add(3)">3</button></td>
+                <td><button type="button" onclick="add('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="add(0)">0</button></td>
+                <td><button type="button" onclick="add('+')">+</button></td>
+                <td><button type="button">NONE</button></td>
+                <td><button type="button">NONE</button></td>
+            </tr>
+        </table>
+    </body>
+</html>

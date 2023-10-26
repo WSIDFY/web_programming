@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>갬블링 게임</title>
+
+	<style>
+		table   /*글자 박스 모양 지정*/
+        {
+			border : 1px solid violet;
+			border-collapse : collapse; 
+		}
+		td  /*글자 모양 지정*/
+        {
+			width : 50px;
+			height : 50px;
+			padding : 0px;
+			font : italic 50px consolas, sans-serif;
+			color : blue;
+			text-align : center;
+			background : linen;
+		}
+		div#msg  /*리셋 문장 모양 지정*/
+        {
+			font : italic 18px consolas, sans-serif;
+			color : magenta;
+			margin-top : 10px;
+		}
+	</style>
+
+	<script>
+		var gameon = true;
+		var gameArray = [0, 0, 0];  /*배열 생성*/
+
+		function gen(e) 
+        {
+			if(gameon == false)     /*false일때 종료*/
+            {
+				return;
+            }
+            
+			var n = Math.floor(Math.random()*3);
+			var obj = e.target;
+			obj.innerHTML = n;
+
+			if(obj.id =="first")
+            {
+				gameArray[0]=n;     
+            }
+			else if(obj.id == "second")
+            {
+				gameArray[1]=n;
+            }
+			else
+            {
+				gameArray[2]=n;
+
+				var result = document.getElementById("msg");
+
+				if(gameArray[0]==gameArray[1]&&gameArray[0]==gameArray[2])
+                {
+					result.innerHTML = "Success(click here to do again)";   // 같은 수 3개가 나오면 Success 출력
+				}
+				else
+                {
+					result.innerHTML = "fail(click here to do again)";      // 아니면 fail 출력
+				}
+			}
+		}
+
+		function reset()    // 리셋 기능 구축
+        {
+			gameArray = [0, 0, 0];
+
+			document.getElementById("first").innerHTML=0;
+			document.getElementById("second").innerHTML=0;
+			document.getElementById("third").innerHTML=0;
+			document.getElementById("msg").innerHTML="";
+
+			gameon = true;
+		}
+	</script>
+</head>
+
+<body>  <!--바디 구문 작성-->
+	<h3>갬블링 게임</h3>
+	<p>각 숫자를 클릭하면 0에서 2사이의 난수로 바뀝니다. 
+	모두 같은 수가 나오면 승리합니다.</p>
+	<hr>
+
+	<table>     <!--각 자리의 숫자를 표현할 테이블 구축-->
+		<tr>
+			<td id="first" onclick="gen(event)">0</td>
+			<td id="second" onclick="gen(event)">0</td>
+			<td id="third" onclick="gen(event)">0</td>
+		</tr>
+	</table>
+
+	<div id="msg" onclick="reset()"></div>  <!--버튼 클릭 후 리셋-->
+</body>
+</html>

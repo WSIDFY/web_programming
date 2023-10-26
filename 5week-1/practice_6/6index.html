@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>innerHTML</title>
+        <script>
+            
+        function a()    // 사용자로부터 값을 입력받는 창 생성
+        {
+            let b = prompt("HTML 텍스트 혹은 그냥 텍스트를 입력하세요.");
+            let c = document.getElementById("tra")
+            c.innerHTML = b
+        }
+        </script>
+    </head>
+    <body>
+        <h3>innerHTML</h3>
+        <hr>
+        <p id="tra" onclick="a()">이번 여름에는 어디로 여행을 갈까요?</p>   <!--문장 클릭시 a 입력창 생성-->
+    </body>
+</html>

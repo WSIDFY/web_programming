@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DOM 객체 동적 삽입</title>
+
+        <script>    //버튼이 클릭 되었을때 수행할 작업 설정 및 연결
+        function addAnswer(obj, text)
+        {
+            let newDiv = document.createElement("div")
+            newDiv.innerHTML = text;
+            obj.parentElement.appendChild(newDiv)
+            newDiv.onclick(change(this))
+        }
+        function change(me)
+        {
+            me.parentElement.removeChild(me)
+        }
+        </script>
+    </head>
+
+    <body>
+        <h3>정답의 동적 삽입</h3>
+        <hr>
+        <!--버튼을 클릭했을 때 '백설공주' 출력-->
+        <div><p>Q. 거울아 거울아 세상에서 누가 제일 예쁘니?</p>
+        <button onclick="addAnswer(this, '백설공주')">답보기</button></div>
+        <!--버튼을 클릭했을 때 '둘다' 출력-->
+        <div><p>Q. 죽느냐 사느냐 어떤 것이 문제인가?</p>
+        <button onclick="addAnswer(this, '둘다')">답보기</button></div>
+    </body>
+
+</html>
+

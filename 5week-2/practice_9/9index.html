@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>onmouseover과 onmouseout</title>
+        <meta charset="utf-8">
+
+        <script>
+            function showExp(ev, msg)   // 마우스를 올렸을 때 출력될 텍스트 상자를 보이도록 설정
+            {
+                let div = document.querySelector("#exp")
+                div.innerHTML = msg;
+                div.style.visibility = "visible"
+                div.style.top = ev.clientY+"px"
+                div.style.left = ev.clientX+"px"
+            }
+            function hideExp()  //마우스를 올렸을 때 출력될 텍스트 상자가 보이지 않도록 설정
+            {
+                let div = document.querySelector("#exp")
+                div.style.visibility="hidden"
+            }
+        </script>
+        <style>
+            #exp /*텍스트 상자 모양 설정*/
+            {
+                visibility: hidden;
+                position:absolute;  /*절대 위치*/
+                width: 200px;
+                background-color:rgb(179, 234, 245);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>아이템에 마우스를 올리면 설명 출력</h3>
+        <hr>
+        <p>
+            여름방학 때 하고 싶은 것들
+        </p>
+        <ul>    <!--마우스가 올라갔을 때 출력될 문장 설정-->
+            <li onmouseover="showExp(event, '빨간 자전거를타고 서울 찍고 부산 찍고 목포 인천으로')"onmouseout="hideExp();">자전거로 대한민국 일주</li>
+            <li onmouseover="showExp(event, '베스트셀러를 시작으로 개발도서와 취업에 관련된 도서들을 중점적으로 정독')"onmouseout="hideExp();">책 100권 읽기</li>
+            <li onmouseover="showExp(event, '기초 체력을 키우기 위해 규칙적인 운동화 웨이트 및 유산소 운동 실시')"onmouseout="hideExp();">철인 3종 경기 준비</li>
+            <li onmouseover="showExp(event, '다양한 프로젝트들을 만들어 보고 뜻이 맞는 친구들과 함께 포트폴리오 제작 목표')"onmouseout="hideExp();">자바스크립트 정복</li>
+        </ul>
+        <div id="exp"></div>
+    </body>
+</html>

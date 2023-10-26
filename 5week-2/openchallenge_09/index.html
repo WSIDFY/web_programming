@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>마우스 클릭 연습</title>
+	<style>
+		table 
+        { 
+			border : 1px solid blue; 
+			border-collapse : collapse; 
+		}
+		td 
+        { 
+			border : 1px solid blue; 
+			width : 50px; 
+			height : 50px;
+			padding : 0px; 
+		}
+	</style>
+	<script>
+		var select=0;
+		var img = new Image();
+		img.src="동키.png"; // 이미지 설정
+
+		function set() // 10*10 셀 생성
+        {
+			var table = document.getElementById("table1");
+			for(var i = 0; i < 10; i++)
+            {
+				var row = document.createElement("tr");
+				for(var j = 0; j < 10; j++)
+                {
+					var col = document.createElement("td");
+					col.innerHTML = "<img src=''>"
+					row.appendChild(col);
+				}
+				table.appendChild(row);
+			}
+		   	 for(var i = 0; i < 100; i++) 
+            { 
+		  	  	document.images[i].onclick = moveImage;
+			}
+				moveImage(); // 셀을 선택하고 이미지 출력
+		}
+
+		// <img> 태그의 click 리스너
+		function moveImage() 
+        { // 현재 셀의 이미지를 공백으로 처리하고 위치 변경
+			document.images[select].src = "";
+
+			// 범위 내의 랜덤 셀을 설정
+			select = Math.floor(Math.random()*100);
+
+			// 랜덤으로 지정된 셀에 이미지를 출력
+			document.images[select].src = img.src;
+		}
+	</script>
+</head>
+
+<body onload="set()">
+    <h3> 마우스 클릭 연습</h3>
+    <hr>
+	<table id="table1"></table> <!--표 출력-->
+</body>
+</html>
