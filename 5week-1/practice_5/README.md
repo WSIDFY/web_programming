@@ -7,5 +7,5 @@
 >   2. 모두 동일한 자바스크립트 코드를 onclick 리스너로 등록, onclick 리스너에서는 각 이미지의 z-index 값을 수정하여 밑의 카드가 보이게 한다.
 
 
-<br><img src="1.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="2.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="1000" height="1000" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="2.png" width="1000" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
