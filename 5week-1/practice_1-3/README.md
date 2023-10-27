@@ -2,7 +2,7 @@
 
  #### 추가 및 안내 사항
 
->  &ltol onclick="..."&gt로 이벤트 리스너를 작성하라.
+>  &lt;ol onclick="..."&gt;로 이벤트 리스너를 작성하라.
 
 
 <br><img src="3.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
