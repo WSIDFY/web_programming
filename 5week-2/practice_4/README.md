@@ -6,5 +6,5 @@
 >   >
 >   2. document.onmousemove(혹은 window.onmousemove)에서 마우스의 위치를 따라 계속 &lt;div&gt; 위치를 변경 
 
-<br><img src="1.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="2.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="1000" height="700" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="2.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
