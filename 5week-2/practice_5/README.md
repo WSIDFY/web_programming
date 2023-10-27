@@ -4,5 +4,5 @@
 
 >   브라우저 내에서 아무 위치에서 더블 클릭을 했을 때 배경색이 랜덤으로 지정되도록 설정
 
-<br><img src="1.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="2.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="1000" height="700" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="2.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
