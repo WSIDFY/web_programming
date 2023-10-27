@@ -6,6 +6,6 @@
 >   >
 >   2. 브라우저 바깥에 마우스를 클릭하면 브라우저의 window 객체는 포커스를 잃게 되어 blur 이벤트가 발생한다. -> window 객체에 onblur 리스너를 작성 
 
-<br><img src="1.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="2.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="3.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="1000" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="2.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="3.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
