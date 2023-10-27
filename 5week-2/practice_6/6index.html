@@ -9,13 +9,13 @@
     {                           //휠이 돌아가는 방향에 따라 사진의 크기를 조정
         if(e.wheelDelta < 0)    // 휠을 아래로 돌렸을 때
         {
-           img.width -= img.width*0.05
-           img.height -= img.height*0.05
+           img.width += img.width*0.05
+            img.height += img.height*0.05
         }
         else                    //휠을 위로 돌렸을 때
         {
-            img.width += img.width*0.05
-            img.height += img.height*0.05
+             img.width -= img.width*0.05
+           img.height -= img.height*0.05
         }
     }
     </script>
