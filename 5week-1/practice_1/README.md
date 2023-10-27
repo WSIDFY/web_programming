@@ -2,7 +2,7 @@
 
  #### 추가 및 안내 사항
 
->    > 피그마(Figma)를 사용한 DOM Tree
->    > 
+> 피그마(Figma)를 사용한 DOM Tree
+
 
 <br><img src="domtree.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
