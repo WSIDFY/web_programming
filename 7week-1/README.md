@@ -11,6 +11,7 @@
 >    4. (기입 예정)
 
 ### 1. 동적 웹 페이지와 정적 웹 페이지의 차이를 설명하시오
+
 <p>
 -웹 페이지는 크게 <b>'정적 웹 페이지'(Static Web PAge)</b>와 <b>'동적 웹 페이지'(Dynamic Web Page)</b>로 나뉜다.
 </p>
@@ -131,7 +132,7 @@
 </p>
 <ul>
 <ol type="1">
-  <li><b>DNS 해석</b>: www.abc.com을 IP주소로 변환하기 위해 Domain Name System에 요청을 보낸다.</li>
+  <li><b>DNS 해석</b>: 'www.abc.com'을 IP주소로 변환하기 위해 Domain Name System에 요청을 보낸다.</li>
   <li><b>서버 연결</b>: 얻은 IP주소를 사용하여 웹 서버에 TCP/IP연결을 시도한다.(기본-80번 포트)</li>
   <li><b>HTTP 요청</b>: 브라우저는 HTTP 프로토콜을 사용하여 웹 서버에게 패키지를 요청하는 HTTP 요청 메시지를 전송한다.</li>
   <li><b>PHP 처리</b>: 웹 서버는 HTTP 요청 메시지를 처리하고 해당 PHP파일을 실행하기 위해 PHP엔진에 전달한다.</li>
@@ -139,13 +140,35 @@
   <li><b>HTTP 응답</b>: PHP 코드 실행이 완료되면 서버는 동적으로 생성된 HTML등의 내용을 포함한 HTTP 응답 메시지를 생상한 후 브라우저에 전송한다.</li>
   <li><b>브라우저 렌더링</b>: 브라우저는 전송된 HTTP응답 메시지를 해석하고 웹 페이지를 렌더링해서 사용자에게 보여준다.</li>
 </ul>
+ 
 <hr>
 
 ### 5. call by value와 call by reference의 차이점에 대해 기술하시오.
+<p>
+- call by value : 인자로 받은 값을 복사하여 처리(함수 내에서 값을 변경해도 원본 값은 변경되지 않는다. - 값의 불변성 유지에 용이)<br>
+- call by reference : 인자로 받은 값의 주소를 참조하여 직접 값에 개입(함수 내에서 인수로 전달된 변수의 값을 변경하면 호출한 쪽에서도 해당 변수의 값이 변경된다.)<br>
+</p>
 
-
-
-
+<p>
+<strong>(참고 이미지)</strong>
 <br><img src="1.png" width="1000" height="1500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="2.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="3.png" width="1000" height="700" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+</p>
+
+<p>
+<li>call by value와 call by reference의 차이점</li>
+ 
+- call by value와 call by reference의 차이점은 각각의 장단점에서 찾아볼 수 있다.<br>
+ 
+<dt><strong><li>>call by value의 장/단점</strong></dt>
+<dd>
+  > 장점 : 복사하여 처리하기 때문에 원래 값이 보존되므로 안전하다.<br>
+  > 단점 : 복사를 하여 처리하기 때문에 메모리의 사용량이 늘어난다.<br>
+</dd>
+
+<dt><strong><li>>call by reference의 장/단점</strong></dt>
+<dd>
+  > 장점 : 복사를 하지 않고 직접 참조를 하기 때문에 작업 속도가 빠르다.<br>
+  > 단점 : 직접 참조를 하기 때문에 원래의 값이 직접적으로 영향을 받는다.<br>
+</dd>
+</p>
+
