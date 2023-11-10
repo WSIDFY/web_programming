@@ -156,17 +156,19 @@
 </p>
 
 <p>
-<li>call by value와 call by reference의 차이점</li>
+<strong>call by value와 call by reference의 차이점</strong><br>
  
+ <p>
 - call by value와 call by reference의 차이점은 각각의 장단점에서 찾아볼 수 있다.<br>
+ </p>
  
-<dt><strong><li>>call by value의 장/단점</strong></dt>
+<dt><strong><li>call by value의 장/단점</strong></dt>
 <dd>
   > 장점 : 복사하여 처리하기 때문에 원래 값이 보존되므로 안전하다.<br>
   > 단점 : 복사를 하여 처리하기 때문에 메모리의 사용량이 늘어난다.<br>
 </dd>
 
-<dt><strong><li>>call by reference의 장/단점</strong></dt>
+<dt><strong><li>call by reference의 장/단점</strong></dt>
 <dd>
   > 장점 : 복사를 하지 않고 직접 참조를 하기 때문에 작업 속도가 빠르다.<br>
   > 단점 : 직접 참조를 하기 때문에 원래의 값이 직접적으로 영향을 받는다.<br>
