@@ -1,7 +1,8 @@
 # 7주차 웹 프로그래밍 과제
 <hr>
 
-### <mark>1. 동적 웹 페이지와 정적 웹 페이지의 차이를 설명하시오</mark>
+### 1. 동적 웹 페이지와 정적 웹 페이지의 차이를 설명하시오
+
 -웹 페이지는 크게 <b>'정적 웹 페이지'(Static Web PAge)</b>와 <b>'동적 웹 페이지'(Dynamic Web Page)</b>로 나뉜다.
 
 * <dt><strong>'정적 웹 페이지'(Static Web Page)란?</strong></dt>
