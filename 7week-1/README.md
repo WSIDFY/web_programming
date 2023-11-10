@@ -3,9 +3,13 @@
  #### - 목 차 -
 
 <li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
+<li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
+<li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
+<li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
+<li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
+<br><br>
 
-
-<strong id = "first"><b>### 1. 동적 웹 페이지와 정적 웹 페이지의 차이를 설명하시오</b></strong>
+### <strong id = "first"><b>1. 동적 웹 페이지와 정적 웹 페이지의 차이를 설명하시오</b></strong>
 <br>
 <p>
 -웹 페이지는 크게 <b>'정적 웹 페이지'(Static Web PAge)</b>와 <b>'동적 웹 페이지'(Dynamic Web Page)</b>로 나뉜다.
