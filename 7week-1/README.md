@@ -5,7 +5,7 @@
 
 -웹 페이지는 크게 <b>'정적 웹 페이지'(Static Web PAge)</b>와 <b>'동적 웹 페이지'(Dynamic Web Page)</b>로 나뉜다.
 
-<dt><strong>* '정적 웹 페이지'(Static Web Page)란?</strong></dt>
+<dt><strong><li>'정적 웹 페이지'(Static Web Page)란?</strong></dt>
 <dd>
   > 만들어놓은 것을 그대로 제공하는 페이지라고 할 수 있으며 image, html, css, javascript 파일과 같이 컴퓨터에 저장되어 있는 파일들을 의미한다.<br>
   > 웹 서버에 이미 저장된 파일(HTML파일, 이미지, JavaScript 파일 등)을 클라이언트에게 전송하는 웹 페이지<br>
@@ -27,14 +27,14 @@
 - 추가, 삭제, 수정 등의 작업이 모두 코드를 직접 건드려야 하기 때문에 관리가 힘들다.<br>
 </p>
 
-<br><dt><strong>* '동적 웹 페이지'(Dynamic Web Page)란?</strong></dt>
+<br><dt><strong><li>'동적 웹 페이지'(Dynamic Web Page)란?</strong></dt>
 <dd>
   > 사용자로부터 들어온 요청에 맞게 동적으로 만들어진 콘텐츠를 의미한다.<br>
   > 데이터베이스, 서버 내 로직 등을 활용해 만들어진 콘텐츠를 반환한다.(요청과 조건에 따른 다른 결과를 보게 된다.)<br>
   > 웹 어플리케이션 서버에서 제공한다.<br>
 </dd>
 
-<br><dt><strong>* 동적 웹 페이지의 장/단점</strong></dt>
+<br><dt><strong><li>동적 웹 페이지의 장/단점</strong></dt>
 <p>
 < 장 점 >
 - 다양한 정보를 조합하여 웹 페이지를 제공하기 때문에 서비스가 다양하다.<br>
