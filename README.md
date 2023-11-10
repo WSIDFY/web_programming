@@ -1,7 +1,7 @@
 # 웹 프로그래밍 과제 종합 레파지토리입니다.
 <br>
-### - index.html 파일은 매주 최신화됩니다.
-### - 링크 주소 : https://wsidfy.github.io/web_programming/index.html
+### - index.html 파일은 매주 최신화됩니다.<br>
+### - 링크 주소 : https://wsidfy.github.io/web_programming/index.html<br>
 
 
 #### 안내사항
