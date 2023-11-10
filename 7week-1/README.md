@@ -152,7 +152,7 @@
 
 <p>
 <strong>(참고 이미지)</strong>
-<br><img src="1.png" width="1000" height="1500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="1000" height="700" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <p>
