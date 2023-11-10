@@ -3,10 +3,10 @@
  #### - 목 차 -
 
 <li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
-<li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
-<li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
-<li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
-<li><a href="#first">1. 동적 웹 페이지와 정적 웹 페이지의 차이</a></li>
+<li><a href="#second">2. PHP에 설치된 모듈(20개)의 종류 및 역할</a></li>
+<li><a href="#third">3. PHP에서 사용되는 스크립트 엔진</a></li>
+<li><a href="#fourth">4. 웹 브라우저에서 'http://www.abc.com/abc.php' 페이지를 접속했을 때 서버가 하는 일</a></li>
+<li><a href="#fifth">5. call by value와 call by reference의 차이점</a></li>
 <br><br>
 
 ### <strong id = "first"><b>1. 동적 웹 페이지와 정적 웹 페이지의 차이를 설명하시오</b></strong>
@@ -84,7 +84,7 @@
 
 <hr>
 
-### 2. PHP에 설치된 모듈(20개)은 어떤 것이 있는지 조사하시오.
+### <strong id = "second"><b>2. PHP에 설치된 모듈(20개)은 어떤 것이 있는지 조사하시오.</b></strong>
 <br>
 <p>
 - 일반적으로 PHP에 설치되어있는 모듈들 중 20개 정도에 대해 기술해보고 각각의 모듈들의 기능에 대해 알아보자
@@ -114,8 +114,8 @@
 </ul>
  
 <hr>
- 
-### 3. PHP에서 사용되는 스크립트 엔진에 대해 기술하시오.
+
+### <strong id = "third"><b>3. PHP에서 사용되는 스크립트 엔진에 대해 기술하시오.</b></strong>
 <br>
 <p>
  - PHP 스크립트는 일반적으로 HTML 코드 안에 포함되어 있고, 서버에서 실행되면 동적인 콘텐츠를 생성하여 클라이언트에게 제공한다. PHP스크립트를 실행하기 위해 필요한 엔진은 PHP엔진인데 그 예로 'Zend 엔진'을 말할 수 있다.<br>
@@ -129,7 +129,7 @@
 
 <hr>
 
-### 4. 웹 브라우저에서 http://www.abc.com/abc.php 페이지를 접속했을 때, 서버는 어떠한 일을 수행하는가?
+### <strong id = "fourth"><b>4. 웹 브라우저에서 http://www.abc.com/abc.php 페이지를 접속했을 때, 서버는 어떠한 일을 수행하는가?</b></strong>
 <p>
 - 해당 페이지에 접속했을 때 서버가 수행하는 일은 순서도로 나타낼 수 있다.
 </p>
@@ -147,7 +147,7 @@
  
 <hr>
 
-### 5. call by value와 call by reference의 차이점에 대해 기술하시오.
+### <strong id = "fifth"><b>5. call by value와 call by reference의 차이점에 대해 기술하시오.</b></strong>
 <br>
 <p>
 - call by value : 인자로 받은 값을 복사하여 처리(함수 내에서 값을 변경해도 원본 값은 변경되지 않는다. - 값의 불변성 유지에 용이)<br><br>
