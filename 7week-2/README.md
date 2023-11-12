@@ -40,7 +40,7 @@
 <br>
 <p>
 (3번 문제 소스코드 이미지)
- <br><img src="3.png" width="1000" height="700" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
+ <br><img src="3.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -48,5 +48,5 @@
 ### <strong id = "third"><b>PHP파일 종 웹 호스팅 결과 페이지 출력</b></strong>
 <br>
 <p>
-   <br><img src="4.png" width="1000" height="600" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
+   <br><img src="4.png" width="700" height="600" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
 </p>
