@@ -3,7 +3,7 @@
 # 7주차 웹 프로그래밍 과제
 
 <!----------------------- 앵커로 연결된 목차 지정--------------------------->
-###결과물 출력 링크(무료 호스팅 사이트'Hostinger'이용) : https://programingbymj.000webhostapp.com/
+### 결과물 출력 링크(무료 호스팅 사이트'Hostinger'이용) : https://programingbymj.000webhostapp.com/
 
 #### - 목 차 -
 
