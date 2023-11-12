@@ -40,7 +40,7 @@
 <br>
 <p>
 (3번 문제 소스코드 이미지)
- <br><img src="3.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
+ <br><img src="3.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
 </p>
 
 <hr>
