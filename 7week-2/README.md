@@ -48,5 +48,6 @@
 ### <strong id = "third"><b>PHP파일 종 웹 호스팅 결과 페이지 출력</b></strong>
 <br>
 <p>
+(웹 호스팅 결과 페이지 출력 이미지) 
    <br><img src="4.png" width="1400" height="400" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
 </p>
