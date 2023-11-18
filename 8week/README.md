@@ -73,7 +73,7 @@
 (5번 문제 'client.txt'파일 내용)
 <br><img src="6.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="6번 이미지"></img><br/>
 (5번 문제 소스코드 이미지)
- <br><img src="7.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="7번 이미지"></img><br/>
+ <br><img src="7.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="7번 이미지"></img><br/>
 </p>
 
 <hr>
