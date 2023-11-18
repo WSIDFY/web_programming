@@ -36,7 +36,7 @@
 <br>
 <p>
 (2번 문제 소스코드 이미지)
-<br><img src="2.png" width="800" height="700" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
+<br><img src="2.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -47,9 +47,9 @@
 <br>
 <p>
 (3번 문제 'exam.txt'파일 내용)
-<br><img src="3.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="3번 이미지"></img><br/>
+<br><img src="3.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="3번 이미지"></img><br/>
 (3번 문제 소스코드 이미지)
- <br><img src="4.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="4번 이미지"></img><br/>
+ <br><img src="4.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="4번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -60,7 +60,7 @@
 <br>
 <p>
 (4번 문제 소스코드 이미지)
- <br><img src="5.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="5번 이미지"></img><br/>
+ <br><img src="5.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="5번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -71,9 +71,9 @@
 <br>
 <p>
 (5번 문제 'client.txt'파일 내용)
-<br><img src="6.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="6번 이미지"></img><br/>
+<br><img src="6.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="6번 이미지"></img><br/>
 (5번 문제 소스코드 이미지)
- <br><img src="7.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="7번 이미지"></img><br/>
+ <br><img src="7.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="7번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -84,5 +84,5 @@
 <br>
 <p>
 (웹 호스팅 결과 페이지 출력 이미지) 
-   <br><img src="8.png" width="1400" height="400" title="px(픽셀) 크기 설정" alt="8번 이미지"></img><br/>
+   <br><img src="8.png" width="1400" height="800" title="px(픽셀) 크기 설정" alt="8번 이미지"></img><br/>
 </p>
