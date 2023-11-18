@@ -47,7 +47,7 @@
 <br>
 <p>
 (3번 문제 'exam.txt'파일 내용)
-<br><img src="3.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="3번 이미지"></img><br/>
+<br><img src="3.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="3번 이미지"></img><br/>
 (3번 문제 소스코드 이미지)
  <br><img src="4.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="4번 이미지"></img><br/>
 </p>
