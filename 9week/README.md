@@ -21,7 +21,7 @@
 <br>
 <p>
 (HTML 소스코드 이미지)
-<br><img src="1.png" width="800" height="700" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -32,7 +32,7 @@
 <br>
 <p>
 (PHP 소스코드 이미지)
-<br><img src="2.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
+<br><img src="2.png" width="800" height="900" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -43,7 +43,7 @@
 <br>
 <p>
 (CSS 소스코드 이미지)
-<br><img src="3.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="3번 이미지"></img><br/>
+<br><img src="3.png" width="800" height="700" title="px(픽셀) 크기 설정" alt="3번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -65,5 +65,5 @@
 <br>
 <p>
 (최종 출력)
-<br><img src="5.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="5번 이미지"></img><br/>
+<br><img src="5.png" width="800" height="350" title="px(픽셀) 크기 설정" alt="5번 이미지"></img><br/>
 </p>
