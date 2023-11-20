@@ -53,7 +53,7 @@
 ### <strong id = "fourth"><b>4. 페이지 형태(단, vardump()함수 제외)</b></strong>
 <br>
 <p>
-(페이지 형태)
+(페이지 형태 이미지)
  <br><img src="4.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="4번 이미지"></img><br/>
 </p>
 
@@ -64,6 +64,6 @@
 ### <strong id = "fifth"><b>5. 최종 출력</b></strong>
 <br>
 <p>
-(최종 출력)
+(최종 출력 이미지)
 <br><img src="5.png" width="800" height="350" title="px(픽셀) 크기 설정" alt="5번 이미지"></img><br/>
 </p>
