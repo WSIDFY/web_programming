@@ -110,18 +110,23 @@
 <br>
 <p>
 (최종 결과 분석 이미지)
-- Register 과정
+  
+<b>- Register 과정</b>
 <br><img src="img/결과1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="img/결과2.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-- laragon DB에 저장된 User 데이터 이미지
+
+<b>- laragon DB에 저장된 User 데이터 이미지</b>
 <br><img src="img/결과3.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-- Login 페이지(Logout했을 때)
+
+<b>- Login 페이지(Logout했을 때)</b>
 <br><img src="img/결과4.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-- Admin - create user 과정
+
+<b>- Admin - create user 과정</b>
 <br><img src="img/결과5.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="img/결과6.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="img/결과7.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-- - laragon DB에 저장된 Admin 데이터 이미지
+
+<b>- laragon DB에 저장된 Admin 데이터 이미지</b>
 <br><img src="img/결과8.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
