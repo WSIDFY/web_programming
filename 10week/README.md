@@ -98,8 +98,8 @@
 <br>
 <p>
 (style.css 소스코드)
-<br><img src="img/17.png" width="800" height="1300" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="img/18.png" width="800" height="1300" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/17.png" width="600" height="1200" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/18.png" width="600" height="1200" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -122,9 +122,9 @@
 <br><img src="img/결과4.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 
 <b>- Admin - create user 과정</b>
-<br><img src="img/결과5.png" width="800" height="700" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/결과5.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="img/결과6.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="img/결과7.png" width="800" height="700" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/결과7.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 
 <b>- laragon DB에 저장된 Admin 데이터 이미지</b>
 <br><img src="img/결과8.png" width="1200" height="400" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
