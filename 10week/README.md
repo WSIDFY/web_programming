@@ -55,7 +55,7 @@
 <br><img src="img/9.png" width="900" height="800" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
 <br><img src="img/10.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
 <br><img src="img/11.png" width="900" height="800" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
-<br><img src="img/12.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
+<br><img src="img/12.png" width="1000" height="500" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
 </p>
 
 <hr>
