@@ -24,7 +24,7 @@
 <br>
 <p>
 (create_user.php 소스코드 및 주석 이미지)
-<br><img src="1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
