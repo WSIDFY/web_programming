@@ -25,6 +25,7 @@
 <p>
 (create_user.php 소스코드 및 주석 이미지)
 <br><img src="img/1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/2.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -35,7 +36,9 @@
 <br>
 <p>
 (home.php 소스코드 및 주석 이미지)
-<br><img src="2.png" width="800" height="900" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
+<br><img src="img/3.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/4.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/5.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -46,7 +49,13 @@
 <br>
 <p>
 (functions.php 소스코드 및 주석 이미지)
-<br><img src="3.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="3번 이미지"></img><br/>
+<br><img src="img/6.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/7.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/8.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/9.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/10.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/11.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/12.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -57,7 +66,8 @@
 <br>
 <p>
 (index.php 소스코드 및 주석 이미지)
- <br><img src="4.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="4번 이미지"></img><br/>
+<br><img src="img/13.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/14.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -68,7 +78,7 @@
 <br>
 <p>
 (login.php 소스코드 및 주석 이미지)
-<br><img src="5.png" width="800" height="350" title="px(픽셀) 크기 설정" alt="5번 이미지"></img><br/>
+<br><img src="img/15.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <!------------------------------register.php--------------------------------------->
@@ -77,7 +87,7 @@
 <br>
 <p>
 (register.php 소스코드 및 주석 이미지)
-<br><img src="1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/16.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -88,7 +98,8 @@
 <br>
 <p>
 (style.css 소스코드)
-<br><img src="1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/17.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/18.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 <hr>
@@ -99,7 +110,19 @@
 <br>
 <p>
 (최종 결과 분석 이미지)
-<br><img src="1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+- Register 과정
+<br><img src="img/결과1.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/결과2.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+- laragon DB에 저장된 User 데이터 이미지
+<br><img src="img/결과3.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+- Login 페이지(Logout했을 때)
+<br><img src="img/결과4.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+- Admin - create user 과정
+<br><img src="img/결과5.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/결과6.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/결과7.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+- - laragon DB에 저장된 Admin 데이터 이미지
+<br><img src="img/결과8.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
 
