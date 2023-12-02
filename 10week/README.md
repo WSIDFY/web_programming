@@ -66,7 +66,7 @@
 <br>
 <p>
 (index.php 소스코드 및 주석 이미지)
-<br><img src="img/13.png" width="900" height="500" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="img/13.png" width="1000" height="400" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 <br><img src="img/14.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 </p>
 
