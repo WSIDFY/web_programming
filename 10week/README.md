@@ -112,7 +112,7 @@
 (최종 결과 분석 이미지)
   
 <b>- Register 과정</b>
-<br><img src="img/결과1.png" width="800" height="700" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
+<br><img src="img/결과1.png" width="900" height="700" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
 <br><img src="img/결과2.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
 
 <b>- laragon DB에 저장된 User 데이터 이미지</b>
