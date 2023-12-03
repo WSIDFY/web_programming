@@ -87,7 +87,7 @@
 <br>
 <p>
 (register.php 소스코드 및 주석 이미지)
-<br><img src="img/16.png" width="800" height="800" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
+<br><img src="img/16.png" width="1000" height="800" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
 </p>
 
 <hr>
