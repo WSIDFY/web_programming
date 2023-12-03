@@ -99,7 +99,7 @@
 <p>
 (style.css 소스코드)
 <br><img src="img/17.png" width="600" height="1200" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
-<br><img src="img/18.png" width="600" height="1200" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
+<br><img src="img/18.png" width="600" height="1300" title="px(픽셀) 크기 설정" alt="이미지"></img><br/>
 </p>
 
 <hr>
