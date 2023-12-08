@@ -19,7 +19,7 @@
 <br>
 
 <p>
-<br><img src="00.png" width="800" height="400" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="00.png" width="800" height="300" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
 
 - 닷홈이란? 도메인, 무료 웹호스팅, 웹빌더, 메일호스팅, SSL보안인증서, 서버호스팅, 코로케이션 등등 다양한 호스팅 서비스를 제공하는 홈페이지이다.
 - 일반적으로 웹사이트를 위한 서버는 언제든지 정보 제공이 가능하도록 24시간 운영해야 하기 때문에 인력, 자원, 비용 등이 많이 필요하게 된다.
@@ -41,8 +41,8 @@
 
 <p>
 (2번 문제 소스코드 이미지)
-<br><img src="1.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
-<br><img src="2.png" width="800" height="500" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
+<br><img src="1.png" width="900" height="600" title="px(픽셀) 크기 설정" alt="1번 이미지"></img><br/>
+<br><img src="2.png" width="900" height="500" title="px(픽셀) 크기 설정" alt="2번 이미지"></img><br/>
 <br><img src="3.png" width="800" height="600" title="px(픽셀) 크기 설정" alt="3번 이미지"></img><br/>
 </p>
 
